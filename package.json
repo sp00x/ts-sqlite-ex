@@ -2,7 +2,7 @@
   "name": "@sp00x/sqlite-ex",
   "version": "0.1.0",
   "description": "sqlite3 convenience methods/wrapper",
-  "keywords": [],
+  "keywords": [ "sqlite", "database" ],
   "main": "dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {

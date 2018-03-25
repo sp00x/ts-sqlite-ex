@@ -1,6 +1,6 @@
 # ts-sqlite-ex
 
-sqlite convenience methods/wrapper
+sqlite3 convenience methods/wrapper
 
 ## Known issues
 
@@ -24,7 +24,7 @@ db.db.<sqlite3-method>(..)
 
 ### db
 
-Whatever was passed into the contstructor
+Whatever was passed into the constructor
 
 ## Methods
 
