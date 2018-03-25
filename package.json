@@ -1,0 +1,36 @@
+{
+  "name": "@sp00x/sqlite-ex",
+  "version": "0.1.0",
+  "description": "sqlite3 convenience methods/wrapper",
+  "keywords": [],
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc -p .",
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Rune Bjerke",
+    "email": "github.public@green.spoox.org",
+    "url": "http://spoox.org"
+  },
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sp00x/ts-sqlite-ex.git"
+  },
+  "homepage": "https://github.com/sp00x/ts-sqlite-ex",
+  "bugs": {
+    "url": "https://github.com/sp00x/ts-sqlite-ex/issues"
+  },
+  "dependencies": {
+    "@types/sqlite3": "^3.1.1",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "*"
+  }
+}
